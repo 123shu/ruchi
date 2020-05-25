@@ -1,0 +1,88 @@
+body{
+	padding:1%;
+	margin:20px;
+}
+
+header{
+	background-color:#848E66;
+	background-image: url("file:///C:/Users/Asus/Desktop/images/flywheel.jpg");
+	background-size:100%;
+	padding:20px;
+}
+h1{
+	text-transform:uppercase;
+	font-size:22px;
+	text-align:center;
+	color:#fdfdfe;
+}
+
+nav a{
+	display:inline-block;
+	margin:0.5% 3% 2%;
+	border-radius:5px;
+	padding:2%;
+	text-decoration:none;
+	color:#000000;
+	text-align:center;
+	vertical-align:middle;
+	background-color: rgba(218,234,213,0.50);
+	width:150px;
+	height:10px;
+}
+.active{
+	background-color:#ffffff;
+}
+.left{
+	background-color:#7b801b;
+	width:20%;
+	height:100vh;
+	float:left;
+}
+.left img{
+	display:block;
+        width:70%;
+        margin:15%;
+	border:solid 2px #000000;
+}
+
+.right{
+	width:74%;
+	margin:0.5%;
+	display:inline-block;
+	font-size:20px;
+}
+
+table{
+	border-spacing:0;
+	text-align:center;
+	font-size:18px;
+	margin-left:10%;
+	width:85%;
+	
+}
+
+th{
+	background:linear-gradient(#80a94afa 0%,#7b801b 100%);
+	border:3px solid;
+	border-color:#ffffff #ffffff #b0e965fa #ffffff;
+	border-radius:5px 5px 0px 0px;
+	color:#ffffff;
+	padding:2%
+}
+td{
+	background-color:#c7ecacfa;
+	border:2px solid #ffffff;
+	padding:2%;
+	color:#000000;
+	opacity:0.6;
+	text-shadow:1px 1px #ffffff;
+}
+td:hover{
+	opacity:1;
+}
+tr th:first-child{
+text-align:left;
+}
+tr td:first-child{
+text-align:left;
+}
